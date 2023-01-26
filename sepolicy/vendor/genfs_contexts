@@ -51,8 +51,8 @@ genfscon sysfs /devices/platform/13870000.i2c/i2c-4/4-0048/input/input5/enabled	
 genfscon sysfs /devices/platform/dc_vibrator/leds/vibrator/						       u:object_r:sysfs_leds_writable:s0
 
 # Sensors
-genfscon sysfs /class/sensors/ssp_sensor/hall_ic							       u:object_r:sysfs_sensors_writable:s0
-genfscon sysfs /class/sensors/light_sensor/hall_ic
+genfscon sysfs /device/virtual/sensors/ssp_sensor/hall_ic						       u:object_r:sysfs_sensors_writable:s0
+genfscon sysfs /device/virtual/sensors/light_sensor/hall_ic
    u:object_r:sysfs_sensors_writable:s0
 
-genfscon sysfs /sys/firmware/devicetree/base/sound/mixer-paths						       u:object_r:proc_sound_devicetree:s0
+genfscon sysfs /firmware/devicetree/base/sound/mixer-paths						       u:object_r:proc_sound_devicetree:s0
