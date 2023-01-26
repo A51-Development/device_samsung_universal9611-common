@@ -33,9 +33,6 @@ persist.rmnet.             u:object_r:persist_rmnet_prop:s0
 persist.data.df.           u:object_r:persist_data_df_prop:s0
 persist.data.wda.          u:object_r:persist_data_wda_prop:s0
 
-# Wlbtd
-vendor.wlbtd.		   u:object_r:vendor_wlbtd_prop:s0
-
 # Samsung
 ro.product_ship                u:object_r:exported_default_prop:s0
 ro.debug_level                 u:object_r:exported_default_prop:s0
