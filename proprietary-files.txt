@@ -133,6 +133,7 @@ vendor/lib/libsecril-client.so
 vendor/lib64/libengmode_client.so
 vendor/lib64/libfloatingfeature.so
 vendor/lib64/libril_sem.so
+vendor/lib64/librilutils.so
 vendor/lib64/libsec-ril.so
 vendor/lib64/libsecnativefeature.so
 vendor/lib64/libSemDataProps.so
