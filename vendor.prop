@@ -36,6 +36,13 @@ ro.build.PDA=A515FXXU5GVK6
 # If not set or set to 0, OMX will only use BT.601 colorspace.
 ro.vendor.cscsupported=1
 
+## CSC
+ro.csc.country_code=Romania
+ro.csc.countryiso_code=RO
+ro.csc.omcnw_code=ROM
+ro.csc.omcnw_code2=ROM
+ro.csc.sales_code=ROM
+
 ## SoC
 ro.soc.manufacturer=Samsung
 ro.soc.model=Exynos 9611
