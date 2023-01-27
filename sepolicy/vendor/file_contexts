@@ -53,6 +53,7 @@
 /efs/ssm(/.*)?                               u:object_r:ssm_efs_file:s0
 /efs/tas25xx(/.*)?                           u:object_r:sec_efs_file:s0
 /efs/usb_hw_param(/.*)?                      u:object_r:sec_efs_file:s0
+/efs/carrier(/.*)?                           u:object_r:sec_efs_file:s0
 /efs/wv.keys                                 u:object_r:sec_efs_file:s0
 
 ## Sysfs

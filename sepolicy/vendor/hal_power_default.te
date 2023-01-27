@@ -3,3 +3,4 @@ allow hal_power_default pm_qos_device:chr_file rw_file_perms;
 allow hal_power_default sysfs_battery:dir search;
 allow hal_power_default sysfs_battery_writable:file rw_file_perms;
 allow hal_power_default sysfs_touchscreen_writable:file w_file_perms;
+set_prop(hal_power_default, vendor_powerhal_prop)

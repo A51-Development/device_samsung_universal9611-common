@@ -1,4 +1,5 @@
 # rild.te
 allow rild log_vendor_data_file:dir create_dir_perms;
+allow rild imei_efs_file:file w_file_perms;
 
 get_prop(rild, exported_default_prop)

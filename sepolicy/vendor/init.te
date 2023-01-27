@@ -11,4 +11,5 @@ allow init boot_block_device:lnk_file { relabelto };
 allow init dtb_block_device:lnk_file { relabelto };
 allow init dtbo_block_device:lnk_file { relabelto };
 allow init vendor_block_device:lnk_file { relabelto };
-allow init sysfs_leds_writable:file setattr;
+allow init sysfs_leds_writable:file w_file_perms;
+allow init clean_scratch_files_exec:lnk_file read;
